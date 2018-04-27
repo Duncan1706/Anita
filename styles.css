@@ -1,4 +1,4 @@
-.row {
+#row {
   background-image: url("landing.jpg");
 }
 .logo {
@@ -7,9 +7,24 @@
 }
 .h1 {
   color: white;
+  font-family: cursive;
   text-align: center;
+
+
 }
 .h2 {
   color: white;
+  font-family: cursive;
   text-align: center;
+}
+.padding {
+  background-image: url("breakfast.jpg");
+}
+.p2 {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: white;
 }
