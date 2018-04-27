@@ -3,4 +3,9 @@
 }
 .logo {
   text-align: center;
+  padding-top: 60px
+}
+h1 {
+  color: white;
+  text-align: center;
 }
