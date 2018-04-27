@@ -10,7 +10,6 @@
   font-family: cursive;
   text-align: center;
 
-
 }
 .h2 {
   color: white;
@@ -28,7 +27,7 @@
 }
 .pp {
   background-color: #E74C3C;
-  padding-left:30px;
+  padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -67,4 +66,22 @@
 }
 .padding2 {
   background-image: url("dinner.jpg");
+}
+.padding3 {
+  padding-left: 150px;
+}
+.padding4 {
+  padding-right: 290px
+}
+.blank {
+  padding-top: 75px
+}
+.blank2 {
+  padding-top: 75px
+}
+.padding5 {
+  padding-left: 290px
+}
+.padding6 {
+  padding-right: 160px
 }
