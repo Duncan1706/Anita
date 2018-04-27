@@ -17,6 +17,24 @@
   font-family: cursive;
   text-align: center;
 }
+.p1 {
+  background-color: #BDC3C7;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+.pp {
+  background-color: #E74C3C;
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+}
 .padding {
   background-image: url("breakfast.jpg");
 }
@@ -27,4 +45,26 @@
   padding-bottom: 75px;
   text-align: center;
   color: white;
+}
+.p3 {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: white;
+}
+.padding1 {
+  background-image: url("lunch.jpg");
+}
+.p4 {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: white;
+}
+.padding2 {
+  background-image: url("dinner.jpg");
 }
