@@ -10,7 +10,7 @@ This application is a demonstration of the skills of new developers in creating 
 ## Technologies Used
 There are no known issues as far as the project is concerned so far.
 ## Support and contact details
-For support this is the link to the live website https://github.com/Duncan1706/Anita
+For support this is the link to the live website https://duncan1706.github.io/Anita/
 ### License
 *MIT License
 
