@@ -16,23 +16,24 @@
   font-family: cursive;
   text-align: center;
 }
-.p1 {
+.padding7 {
   background-color: #BDC3C7;
+  text-align: center;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  color: white;
+  padding-top:30px;
+  padding-bottom: 30px
+
 }
-.pp {
+.padding8 {
   background-color: #E74C3C;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   text-align: center;
-  color: white;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-top: 30px;
+  padding-bottom:30px
+
+
 }
 .padding {
   background-image: url("breakfast.jpg");
@@ -84,4 +85,16 @@
 }
 .padding6 {
   padding-right: 160px
+}
+.style{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px;
+}
+.blank3 {
+  padding-top: 75px
+}
+#row2 {
+  background-image: url("foodsBg.jpg");
 }

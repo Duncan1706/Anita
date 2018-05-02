@@ -1,122 +1,255 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <title>Document</title>
+<html>
+  <head>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118407190-1');
+  </script>
+
+    <meta charset="utf-8">
     <link href="bootstrap.css" rel="stylesheet" type="text/css">
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <script   src="jQuery.js"></script>
-    <script src="scripts.js"></script>
-    </head>
-      <body>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
+  <title> MY PROJECT</title>
+  </head>
+  <body>
+    <div class="back">
+      <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+     <div class="bar3"></div>
+    </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">contacts</a>
+      <a href="#">Events</a>
+      <a href="#">Menu</a>
+    </div>
+  </div>
+    <div class="logo">
+    <img src="logoBig.png">
+  </div>
+  <div class="h1">
+    <h1>We Provide The Best Food</h1>
+  </div>
+  <div class="h2">
+    <h2>At The <strong>Right Price</strong></h2>
+  </div>
 
-        <div id="row">
-          <div class="logo">
-            <img src="logoBig.png">
-          </div>
-          <div class="h1">
-              <h1>We Provide The Best Food</h1>
-          </div>
-          <div class="h2">
-            <h2>At The <strong>Right Price</strong></h2>
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-md-3 col1">
 
-        <div class="row">
-          <div class="col-md-3 padding7">
-              <p class="p1">Happy Hour</p>
+       <div class="p1">
+        <p> Happy Hour </p>
+         </div>
+         <div class="pp">
+           <p> Party Time</p>
+         </div>
           </div>
-            <div class="col-md-3 padding8">
-              <p class="pp">Party Time</p>
-            </div>
 
-
-          <div class="col-md-3 padding">
-              <p class="p2">Breakfast</p>
-          </div>
-          <div class="col-md-3 padding1">
-              <p class="p3">Lunch</p>
-          </div>
-          <div class="col-md-3 padding2">
-              <p class="p4">Dinner</p>
-          </div>
-        </div>
-
-        <div class="row blank">
-          <div class="col-md-12">
-          </div>
-        </div>
-
-
-        <div class="row">
-        <div class="col-md-6 padding3">
-          <div class="well food">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="img1">
-                  <img src="fastFood1.jpg">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="img2">
-                  <img src="fastFood2.jpg">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 padding4">
-          <div class="fast">
-            <h3>Fast food</h3>
-            <p><strong>You'll love our delicious fast food</strong></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
+  <div class="col-md-3 col2">
+        <img class="pi1" src="breakfast.jpg">
+        <p class="p2">Breakfast</p>
       </div>
 
-      <div class="row blank2">
-        <div class="col-md-12">
-        </div>
+  <div class="col-md-3 col3">
+        <img class="pi2"src="lunch.jpg">
+        <p class="p2">Lunch</p>
       </div>
 
-      <div class="col-md-6 padding5">
-        <div class="Drinks">
-          <h3>Drinks</h3>
-          <p><strong>We also produce delicious drinks</strong></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+  <div class="col-md-3 col4">
+           <img class="pi3"src="dinner.jpg">
+           <p class="p2">Dinner</p>
+   </div>
+    </div>
+    </div>
+
+       <div class="row blank">
+         <div class="col-md-12">
+         </div>
+       </div>
+
+  <div class="row">
+    <div class="col-md-6 pad1">
+  <div class="well food">
+           <div class="row">
+             <div class="col-md-12">
+             <div class="img1">
+           <img src="fastFood1.jpg">
+         </div>
+         </div>
+       </div>
+           <div class="row">
+             <div class="col-md-12">
+             <div class="img2">
+           <img src="fastFood2.jpg">
+         </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+  <div class="col-md-6 pad2">
+  <div class="fast">
+  <h3 class="fa"> Fast Food</h3>
+  <p class="fa2"> you'll love our delicious fast food </p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+       dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="view"> view gallery &#x2192;</button>
       </div>
-      <div class="col-md-6 drinks padding6">
-        <div class="well">
-          <div class="row">
-            <div class="col-md-6 glass1">
-              <div class="img3">
-                <img src="drink1.jpg">
-              </div>
-            </div>
-            <div class="col-md-6 glass">
-              <div class="img4">
-                <img src="drink2.jpg">
-              </div>
-            </div>
+    </div>
+    </div>
+
+  <div class="row blank2">
+    <div class="col-md-12">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 drinks">
+  <h4 class="pd fa"> Drinks</h4>
+  <p class="pd fa2"> We also produce delicious drinks</p>
+    <p class="pd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+       culpa qui officia deserunt mollit anim id est laborum.</p>
+       <div class="space">
+       <button class="view"> view gallery &#x2192;</button>
+     </div>
+     </div>
+     <div class="col-md-6 drink3">
+       <div class="well food">
+         <div class="row">
+           <div class="col-md-6 glass1">
+             <div class="img3">
+               <img src="drink1.jpg">
+             </div>
+           </div>
+           <div class="col-md-6 glass">
+             <div class="img5">
+               <img src="drink2.jpg">
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     </div>
+
+     <div class="row blank3">
+       <div class="col-md-12">
+       </div>
+     </div>
+
+     <div class="row options">
+       <div class="col-md-12 buttons">
+         <div class="wellst">
+
+          <div class="row top">
+          <div class="col-md-3 top1">
+            <p> Fast food </p>
+          </div>
+          <div class="col-md-3 top2">
+            <p> Drinks</p>
+          </div>
+          <div class="col-md-3 top2">
+            <p> Chicken</p>
+          </div>
+          <div class="col-md-3 top2">
+            <p> Rice</p>
           </div>
         </div>
-      </div>
 
-      <div class="row blank3">
-        <div class="col-md-12">
+           <div class="row">
+             <div class="previous1">
+             <p> &#8249;</p>
+           </div>
+             <div class="col-md-4 colum1">
+           <img class="fimage1" src="beefBurger.jpg">
+           <div class="desc"><p>Chicken Burger</p></div>
+       </div>
+       <div class="col-md-4 colum3">
+           <img class="fimage2" src="chickenBurger.jpg">
+           <div class="desc">Beef Burger </div>
+         </div>
+         <div class="col-md-4 colum2">
+           <img class="fimage3" src="chickenPizza.jpg">
+           <div class="desc">Chicken Pizza </div>
+           <div class="button1">
+             <p> &#8250;</p>
+         </div>
+         </div>
+         </div>
+       </div>
+       </div>
+       </div>
+
+       <div class="row">
+         <div class="col-md-12 client">
+           <div class="well client1 food">
+             <div class="row">
+
+               <div class="col-md-6">
+                 <div class="span6">
+             <h5 class="colt1">Our Happy Customers </h5>
+             <p class="colt2">George Richard</p>
+             <p class="colt3"> Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them :)
+             </p>
+             <div class="scroll">
+               <a href="" class="previous round">&#8249;</a>
+             </div>
+
+             <img class="person1" src="p1.png">
+             <img class="person2" src="p2.png">
+             <img  class="person3" src="p3.png">
+
+             <div class="scroll1">
+               <a href="" class="next round">&#8250;</a>
+             </div>
         </div>
-      </div>
+           </div>
+
+           <div class="col-md-6">
+             <h6 class="h6"> About Menu</h6>
+             <p class="about"> We are menu a little team of 7 members.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+               ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+         </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="search">
+       <p> Get our daily food items delivered to your email</p>
+
+       <div class="input-group mb-3 bts">
+         <div class="input-group-prepend bts2">
+           <span class="input-group-text" id="basic-addon1"></span>
+         </div>
+         <input type="text" class="form-control trans" placeholder="Your email" aria-label="email" aria-describedby="basic-addon1">
+       </div>
 
 
-      <div id="row2">
-        <div class="logo2">
-          <img src="foodsBg.jpg">
-        </div>
+     <div class="co">
+       <button class="color"> Subscribe </button>
+     </div>
+     </div>
+     <div class="last">
+      <p class="menu"> <img src="logo_white.png"> <span class="menu">MENU</span></p>
+      <p class="lasst">Thats What We Are</p>
+      <div class="images">
+      <img class="log1"src="facebook.png">
+      <img class="log2"src="twitter.png">
+      <img class="log3"src="pinterest.png">
+    </div>
+    <div class="last2">
+      <p>2016 Menu Restaurant</p>
+    </div>
+     </div>
 
-
-
-      </body>
-    </html>
+  </body>
+</html>
